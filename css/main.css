@@ -48,30 +48,29 @@
     color:black;
     text-transform: uppercase;
   }
-  nav a:hover{
-    color: #ff8000;
+  body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    margin:0;
+    padding:0;
     text-decoration: none;
-    border-bottom: 2px solid orange;
-  }
-  
-  table, td ,th, tr {
-    border-collapse: collapse ;
-    border: 1px solid black;
-  }
+    color:white;
+}
 
-  td,th {
-    text-align: center;
-    padding: 10px;
-  }
-  
-  footer{
-    height: 200px;
-    background-color: gray;
-    color: white;
-    margin: 24px -20px 0px -20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+tbody a {
+    color:white;
+    margin-top: 10px !important;
+    text-decoration: none;
+}
 
-    }
-  
+tbody a:hover {
+    color:rgb(194, 86, 86);
+    text-decoration: none;
+}
+
+tbody i {
+cursor:pointer;
+
+} 
